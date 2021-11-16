@@ -1,0 +1,58 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    'Header Header Header'
+    'Search Search Search'
+    'Content Detail Detail';
+  width: 90vw;
+  min-height: 100vh;
+  margin: 0 auto;
+  border: 1px black solid;
+}
+
+.Header {
+  grid-area: Header;
+  background-color: slategray;
+  color: white;
+}
+
+#search-section {
+  grid-area: Search;
+
+}
+
+#searchResultSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 1px blue solid;
+  grid-area: Content;
+}
+
+.card {
+  border: 1px solid black;
+  margin-bottom: 1rem;
+}
+
+.poster {
+}
+
+.modal-hidden {
+  visibility: hidden;
+}
+
+#detail-section {
+  grid-area: Detail;
+
+  border: 1px orangered solid;
+} */
